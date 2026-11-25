@@ -1,6 +1,6 @@
-# E-commerce AI Agent with LLaMA 3 + FastAPI
+# AI Agent with LLaMA 3 + FastAPI
 
-This project is an intelligent AI agent that understands natural language questions related to e-commerce metrics and returns accurate answers by generating and executing SQL queries on a local database. It uses a locally hosted LLaMA 3 model via Ollama, integrates with FastAPI, and supports streamed responses for a live typing effect.
+This project is an intelligent AI agent that understands natural language questions related to e-commerce metrics and returns answers by generating and executing SQL queries on a local database. It uses a locally hosted LLaMA 3 model via Ollama, integrates with FastAPI, and supports streamed responses for a live typing effect.
 
 ---
 
@@ -105,9 +105,4 @@ uvicorn api_server:app --reload
 | JSON Parsing  | jq (for terminal output) |
 | Dataset Format| Excel (.xlsx → SQLite)   |
 
----
-
-##  Author
-
-**Gokularaman C**  
 ---
